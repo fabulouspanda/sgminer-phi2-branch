@@ -1,5 +1,7 @@
 # sgminer-phi2-branch
 
+This branch makes an effort to support macOS
+
 
 ## Introduction
 
@@ -77,7 +79,7 @@ Then:
     git submodule init
     git submodule update
     autoreconf -i
-    CFLAGS="-O2 -Wall -march=native -std=gnu99" ./configure <options>
+    CFLAGS="-O2 -Wall -march=native" ./configure <options>
     make
 
 To compile a version that can be used accross machines, remove

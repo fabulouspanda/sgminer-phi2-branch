@@ -48,6 +48,7 @@ __constant static const sph_u64 SKEIN_IV512_256[8] = {
 
 __constant static const int ROT256[8][4] =
 {
+    {
 	46, 36, 19, 37,
 	33, 27, 14, 42,
 	17, 49, 36, 39,
@@ -56,6 +57,7 @@ __constant static const int ROT256[8][4] =
 	13, 50, 10, 17,
 	25, 29, 39, 43,
 	8, 35, 56, 22,
+    }
 };
 
 __constant static const sph_u64 skein_ks_parity = 0x1BD11BDAA9FC1A22;
